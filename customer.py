@@ -19,22 +19,22 @@ class Customer:
         self._name = value
 
     def orders(self):
-        """Returns a list of all orders for this customer"""
+        # Returns a list of all orders for this customer
         return self._orders
     
     def coffees(self):
-        """Returns a unique list of all coffees the customer has ordered"""
+        # Returns a unique list of all coffees the customer has ordered
         return list(set(order.coffee for order in self._orders))
     
     def create_order(self, coffee, price):
-        """Creates a new order for the customer"""
+        # Creates a new order for the customer
         from order import Order 
         order = Order(self,coffee, price)
         return order
     
     @classmethod
     def most_aficionado(cls, coffee):
-        """Returns the customer who has spent the most on the given coffee"""
+        # Returns the customer who has spent the most on the given coffee
         if not coffee.orders():
             return None
         
