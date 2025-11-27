@@ -48,7 +48,7 @@ pipenv run pytest
 Run the debug script to see example usage:
 
 ```bash
-python debug.py
+python3 debug.py
 ```
 
 ## Testing
@@ -58,4 +58,8 @@ Bonus testing available in `tests/` directory. Run with pytest:
 ```bash
 pytest
 ```
+## Author 
+Kelvin Murithi Johnson
 
+## License
+MIT LICENSE. 
