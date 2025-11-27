@@ -59,10 +59,3 @@ Bonus testing available in `tests/` directory. Run with pytest:
 pytest
 ```
 
-## Rubric Criteria
-
-- Folder Structure and ReadMe Completeness: Files included, README detailed
-- Initializers and Methods: All required methods implemented
-- Object Relationship Methods: Accurate and relevant results
-- Code Quality and Readability: Clean, well-organized, minimal duplication
-- Exception Handling: Proper validations for invalid inputs
